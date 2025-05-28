@@ -1,0 +1,7 @@
+I'm looking through the hugging face tar files again and wonder if something in the assignment of page ids might now be working correctly.
+
+It looks like some of the page information in the individual items might have been eaten.
+
+For instance, the 1800-11-03_p4_sn83016063_00332895059_1800110301_0486.json contains items where "id": "1_1800-11-03_p1_sn83016063_00332895059_1800110301_0486.json"
+
+Shouldn't the id read: "id": "1_1800-11-03_p4_sn83016063_00332895059_1800110301_0486.json"
